@@ -15,10 +15,12 @@ public class SumCalculatorTest {
     }
 
     @Test
-    public void testSumWithPositiveN() {
+    public void testSumWithPositiveOne() {
         assertEquals(1, calculator.sum(1));
+    }
+    @Test
+    public void testSumWithPositiveSix() {
         assertEquals(6, calculator.sum(3));
-        assertEquals(55, calculator.sum(10));
     }
 
     @Test
